@@ -42,7 +42,7 @@ A seguir está o passo a passo de como inicar as configurações necessárias pa
 
 1) Baixe o modelo atualizado para a seguinte pasta: cinebot_application/data/llm
 
-LINK PARA DOWNLOAD DO MODELO:
+1.1) LINK PARA DOWNLOAD DO MODELO:
 https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/blob/main/Phi-3.5-mini-instruct-Q5_K_M.gguf
 
 2) Ativar o Docker Desktop;
