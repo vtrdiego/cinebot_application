@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 **Datasets:**
 
-O dataset original não está incluso no repositório, apenas com o dataset tratado e pronto para utilização, contendo as seguintes colunas: movie, release_year, overview, genres, keywords e movie_data.<br> 
+O dataset original não está incluso no repositório, tendo apenas o dataset tratado e pronto para utilização, contendo as seguintes colunas: movie, release_year, overview, genres, keywords e movie_data.<br> 
 A coluna "movie_data" contém dados relevantes concatenados, e posteriormente, convertidos em embeddings e armazenados no banco vetorial, sendo a referência para a busca semântica.<br><br>
 
 Caso queira realizar alterações, modificar no arquivo *dataset_processing.py* e executar para criar o novo dataset. Caso contrário, apenas siga os passos abaixo.
