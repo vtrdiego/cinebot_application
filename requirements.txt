@@ -1,0 +1,6 @@
+pandas==2.2.3
+psycopg2==2.9.10
+sentence-transformers==4.1.0
+pgvector==0.4.1
+deepl==1.22.0
+llama-cpp-python==0.3.9

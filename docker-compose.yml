@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: container_cinebot
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: user_application
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: DB_cinebot
+    volumes:
+      - volume_cinebot:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d
+
+volumes:
+  volume_cinebot:
