@@ -60,8 +60,9 @@ pip install -r requirements.txt
 
 **Datasets:**
 
-A aplicação já vem com um dataset tratado e pronto para utilização, contendo as seguintes colunas: movie, release_year, overview, genres, keywords e movie_data.<br> 
+O dataset original não está incluso no repositório, apenas com o dataset tratado e pronto para utilização, contendo as seguintes colunas: movie, release_year, overview, genres, keywords e movie_data.<br> 
 A coluna "movie_data" contém dados relevantes concatenados, e posteriormente, convertidos em embeddings e armazenados no banco vetorial, sendo a referência para a busca semântica.<br><br>
+
 Caso queira realizar alterações, modificar no arquivo *dataset_processing.py* e executar para criar o novo dataset. Caso contrário, apenas siga os passos abaixo.
 
 **Eexecutar a aplicação:**
@@ -90,6 +91,6 @@ Observação: Sempre que for utilizar a aplicação, é necessário ativar o con
   
 <h2>Links</h2>
 
-Dataset original de filmes kaggle: [tmdb-movies-dataset](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies)<br>
+Dataset original de filmes do kaggle: [tmdb-movies-dataset](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies)<br>
 Modelo de Embeddings Huggingface: [BAAI/bge-large-zh-v1.5](https://huggingface.co/BAAI/bge-base-en-v1.5#using-sentence-transformers)<br>
 Modelo Generativo Huggingface: [Phi-3.5-mini-instruct](https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/blob/main/Phi-3.5-mini-instruct-Q5_K_M.gguf)
