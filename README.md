@@ -31,7 +31,7 @@ O sistema foi construído, com tecnologias open source e visa melhorar a experi�
 5. As informações encontradas são enviada para o LLM "Phi-3.5-mini-instruct-Q5_K_M", que cria uma resposta generativa em inglês;
 6. A resposta generativa é traduzida (EN-PT), e devolvida ao usuário através da interface.
 
-**Tecnologias Utilizadas:**
+**Tecnologias utilizadas:**
 
 - Python
 - Streamlit
