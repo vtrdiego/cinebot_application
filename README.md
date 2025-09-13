@@ -12,7 +12,7 @@ A aplicação foi desenvolvida com técnicas de Processamento de Linguagem Natur
 
 * A primeira etapa foi a realização do ETL de dados, no qual foi utilizado um dataset do Kaggle com informações de mais de um milhão de filmes. As informações foram extraídas, tratadas para o caso de uso, e a partir disso, criado um dataset específico para a aplicação. As informações desse novo dataset foram utilizadas como referência para a busca semântica (título, gênero do filme, palavras-chaves, etc), sendo transformadas em embeddings, indexadas e armazenadas no banco vetorial. Nessa primeira etapa, os dados estão prontos para serem consultados.
 
-* A segunda etapa, é justamente a consulta de dados, no qual é realizado o input pelo o usuário e o chatbot transforma essa entrada em embeddings, realiza uma busca semântica utilizando a similaridade de cosseno no banco de dados com as representações vetoriais dos filmes, e então utiliza um modelo de linguagem (LLM) para gerar uma resposta contextualizada e natural à partir das informações encontradas.
+* A segunda etapa é justamente a consulta de dados, no qual é realizado o input pelo o usuário e o chatbot transforma essa entrada em embeddings, realiza uma busca semântica utilizando a similaridade de cosseno no banco de dados com as representações vetoriais dos filmes, e então utiliza um modelo de linguagem (LLM) para gerar uma resposta contextualizada e natural à partir das informações encontradas.
 
 O sistema foi construído, com tecnologias open source e visa melhorar a experiência do usuário frente ao paradoxo da escolha, oferecendo recomendações mais precisas, naturais e alinhadas ao interesse real descrito em linguagem comum.
 
